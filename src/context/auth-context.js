@@ -1,25 +1,40 @@
 import React, { createContext, useState, useContext } from 'react';
+import axios from 'axios';
 
+// Create Context
 const AuthContext = createContext();
 
-export const AuthProvider = ({ children }) => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+// Provide Context
+const AuthProvider = ({ children }) => {
+  const [auth, setAuth] = useState({
+    isAuthenticated: !!localStorage.getItem('token'),
+    token: localStorage.getItem('token') || null,
+  });
 
-  const login = () => {
-    setIsLoggedIn(true);
+  const login = (token) => {
+    localStorage.setItem('token', token);
+    setAuth({
+      isAuthenticated: true,
+      token,
+    });
   };
 
   const logout = () => {
-    setIsLoggedIn(false);
+    localStorage.removeItem('token');
+    setAuth({
+      isAuthenticated: false,
+      token: null,
+    });
   };
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn, login, logout }}>
+    <AuthContext.Provider value={{ auth, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
 };
 
-export const useAuth = () => {
-  return useContext(AuthContext);
-};
+// Custom hook to use Auth context
+const useAuth = () => useContext(AuthContext);
+
+export { AuthProvider, useAuth, AuthContext };

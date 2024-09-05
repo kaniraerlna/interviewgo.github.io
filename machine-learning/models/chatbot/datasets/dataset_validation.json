@@ -1,11 +1,5 @@
 [
   {
-    "tag": "unknown",
-    "patterns": [
-      "gugu gaga"
-    ]
-  },
-  {
     "tag": "common_hello",
     "patterns": [
       "hai",
@@ -57,19 +51,24 @@
   {
     "tag": "interview_answering_question",
     "patterns": [
-      "bagaimana cara menjawab pertanyaan dengan baik saat wawancara"
+      "bagaimana cara menjawab pertanyaan dengan baik saat wawancara",
+      "cara jawab pertanyaan pas wawancara"
     ]
   },
   {
     "tag": "interview_followup",
     "patterns": [
-      "cara melakukan follow-up setelah wawancara"
+      "cara melakukan follow-up setelah wawancara",
+      "apakah harus follow-up setelah wawancara",
+      "bagaimana cara follow-up setelah wawancara"
     ]
   },
   {
     "tag": "interview_preparation",
     "patterns": [
-      "apa saja yang perlu disiapkan sebelum wawancara"
+      "apa saja yang perlu disiapkan sebelum wawancara",
+      "yang harus disiapkan saat wawancara",
+      "apa yang harus ada saat wawancara"
     ]
   },
   {
@@ -100,13 +99,15 @@
   {
     "tag": "interview_reschedule",
     "patterns": [
-      "bagaimana cara bertanya yang baik jika ingin mengubah jadwal wawancara"
+      "bagaimana cara bertanya yang baik jika ingin mengubah jadwal wawancara",
+      "cara mengubah jadwal wawancara"
     ]
   },
   {
     "tag": "post_interview_thankyou",
     "patterns": [
-      "bagaimana cara berterima kasih setelah wawancara"
+      "bagaimana cara berterima kasih setelah wawancara",
+      "cara mengucapkan terima kasih setelah wawancara"
     ]
   },
   {
@@ -171,7 +172,8 @@
     "tag": "portofolio",
     "patterns": [
       "bagaimana cara membuat portofolio yang menarik",
-      "cara agar portofolio terlihat menarik"
+      "cara agar portofolio terlihat menarik",
+      "membangun portofolio yang menarik"
     ]
   },
   {
@@ -183,19 +185,22 @@
   {
     "tag": "personal_handling_common_mistakes",
     "patterns": [
-      "bagaimana cara menghindari kesalahan umum dalam wawancara"
+      "bagaimana cara menghindari kesalahan umum dalam wawancara",
+      "cara menghindari kesalahan umum wawancra"
     ]
   },
   {
     "tag": "personal_prework_problem",
     "patterns": [
-      "kesulitan dalam mencari pekerjaan yang sesuai dengan jurusan kuliah"
+      "kesulitan dalam mencari pekerjaan yang sesuai dengan jurusan kuliah",
+      "kesulitan mencari pekerjaan yang sesuai jurusan kuliah"
     ]
   },
   {
     "tag": "personal_rejected",
     "patterns": [
-      "Cara agar tidak ditolak perusahaan"
+      "Cara agar tidak ditolak perusahaan",
+      "cara agar perusahaaan tidak menolak kita"
     ]
   },
   {
@@ -207,7 +212,8 @@
   {
     "tag": "good_bye",
     "patterns": [
-      "Bye"
+      "Bye",
+      "dadah"
     ]
   }
 ]

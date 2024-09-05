@@ -5,7 +5,8 @@
       "Hai",
       "Selamat pagi",
       "Halo",
-      "Apa kabar?"
+      "Apa kabar?",
+      "Hai"
     ],
     "responses": [
       "Haii, ada yang bisa saya bantu?",
@@ -29,7 +30,7 @@
       "Perkenalkan, saya MonBot, bot yang siap menjawab segala pertanyaan terkait masalah interview yang sedang kamu hadapi!",
       "Halo! Saya MonBot, asisten virtual dari InterviewGo!. Ada pertanyaan seputar wawancara yang bisa saya bantu jawab?",
       "Selamat datang! Saya MonBot, chat-bot yang siap membantu kamu dalam menghadapi tantangan wawancara. Ada yang bisa saya bantu?",
-      "Hai! Nama saya MonBot, bot dari InterviewKu yang siap memberikan solusi untuk pertanyaan seputar wawancara. Ada yang ingin kamu tanyakan?",
+      "Hai! Nama saya MonBot, bot dari InterviewGo! yang siap memberikan solusi untuk pertanyaan seputar wawancara. Ada yang ingin kamu tanyakan?",
       "Hello! Saya MonBot, chat-bot siap membantu dengan segala pertanyaan terkait wawancara. Apakah ada yang perlu saya bantu?"
     ]
   },
@@ -37,7 +38,8 @@
     "tag": "about_interviewgo!",
     "patterns": [
       "Apa itu interviewgo",
-      "Interviewgo! itu apa sih?"
+      "Interviewgo! itu apa sih?",
+      "Interview-go!"
     ],
     "responses": [
       "InterviewGo! Adalah projek PBL yang dibuat oleh Kelompok 1 dari kelas CCIT 6B yang beranggotakan Daffara, Dea, Gianna dan Kanira."
@@ -49,7 +51,8 @@
       "Bagaimana cara membuat CV yang bagus?",
       "Apa yang perlu diperhatikan saat membuat CV?",
       "Tips bikin CV yang menarik?",
-      "Apakah ada saran membuat cv yang bagus?"
+      "Apakah ada saran membuat cv yang bagus?",
+      "Cara membuat CV yang bagus"
     ],
     "responses": [
       "Untuk membuat CV yang bagus, Anda bisa memperhatikan beberapa poin seperti penulisan ringkas, penggunaan bahasa yang jelas, penekanan pada pengalaman relevan, dan tata letak yang bersih dan mudah dibaca.",
@@ -64,7 +67,8 @@
       "Bagaimana cara mempersiapkan diri sebelum wawancara?",
       "Saya butuh tips untuk wawancara kerja.",
       "apa tips interview terbaik yang bisa anda bisa berikan",
-      "Tips wawancara agar diterima oleh perusahaan"
+      "Tips wawancara agar diterima oleh perusahaan",
+      "Tips sebelum interview"
     ],
     "responses": [
       "Beberapa tips sebelum wawancara yang bisa membantu adalah melakukan riset tentang perusahaan, latihan menjawab pertanyaan umum, mempersiapkan pertanyaan untuk pewawancara, dan memastikan penampilan dan sikap yang profesional.",
@@ -75,6 +79,7 @@
   {
     "tag": "interview_personal_weakness",
     "patterns": [
+      "Apa kelemahan Anda?",
       "Bagaimana cara menjawab pertanyaan 'kelemahan Anda' saat wawancara?",
       "Apa yang sebaiknya dikatakan saat diminta untuk menyebutkan kelemahan dalam wawancara?",
       "Bagaimana cara menjawab jika ditanya 'apa kelemahanmu' saat wawancara?"
@@ -88,6 +93,8 @@
   {
     "tag": "interview_appearance",
     "patterns": [
+      "Cara berpenampilan yang baik saat wawancara?",
+      "Saran baju yang dipakai saat wawancara",
       "Apa yang sebaiknya diperhatikan terkait penampilan saat wawancara?",
       "Apa baju atau setelan yang cocok untuk wawancara?",
       "Pakaian seperti apa yang harus sebaiknya dipakai saat interview?",
@@ -102,6 +109,7 @@
   {
     "tag": "interview_answering_question",
     "patterns": [
+      "Jawaban yang baik saat wawancara?",
       "Bagaimana cara memberikan jawaban yang baik saat wawancara?",
       "Bagaimana cara menjawab pertanyaan wawancara dengan baik."
     ],
@@ -114,6 +122,7 @@
   {
     "tag": "interview_followup",
     "patterns": [
+      "Cara melakukan follow-up saat wawancara?",
       "Apakah follow-up setelah wawancara penting?",
       "Bagaimana cara melakukan follow-up setelah wawancara?"
     ],
