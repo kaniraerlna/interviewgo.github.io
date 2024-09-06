@@ -42,7 +42,7 @@ import uuid
 app = Flask(__name__)
 
 # Configure CORS
-CORS(app, supports_credentials=True)
+CORS(app, origins=['https://interviewgogithubio.vercel.app'])
 app.config.from_object(Config)
 Session(app)
 bcrypt = Bcrypt(app)
